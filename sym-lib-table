@@ -4,4 +4,5 @@
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/symbols/eec.lib)(options "")(descr ""))
   (lib (name dk_Logic-Gates-and-Inverters)(type Legacy)(uri ${KIPRJMOD}/symbols/dk_Logic-Gates-and-Inverters.lib)(options "")(descr ""))
   (lib (name CPU)(type Legacy)(uri ${KIPRJMOD}/symbols/CPU.lib)(options "")(descr ""))
+  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/symbols/arduino.lib)(options "")(descr ""))
 )

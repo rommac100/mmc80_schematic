@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -251,15 +251,15 @@ GND
 $Comp
 L power:GND #PWR?
 U 1 1 5F2413C5
-P 600 700
-F 0 "#PWR?" H 600 450 50  0001 C CNN
-F 1 "GND" H 605 527 50  0000 C CNN
-F 2 "" H 600 700 50  0001 C CNN
-F 3 "" H 600 700 50  0001 C CNN
-	1    600  700 
+P 700 700
+F 0 "#PWR?" H 700 450 50  0001 C CNN
+F 1 "GND" H 705 527 50  0000 C CNN
+F 2 "" H 700 700 50  0001 C CNN
+F 3 "" H 700 700 50  0001 C CNN
+	1    700  700 
 	1    0    0    -1  
 $EndComp
-Text GLabel 600  700  1    50   Input ~ 0
+Text GLabel 700  700  1    50   Input ~ 0
 GND
 Wire Wire Line
 	4300 800  4300 3350
@@ -336,15 +336,15 @@ VCC
 $Comp
 L power:VCC #PWR?
 U 1 1 5F2D4698
-P 800 700
-F 0 "#PWR?" H 800 550 50  0001 C CNN
-F 1 "VCC" H 815 873 50  0000 C CNN
-F 2 "" H 800 700 50  0001 C CNN
-F 3 "" H 800 700 50  0001 C CNN
-	1    800  700 
+P 900 700
+F 0 "#PWR?" H 900 550 50  0001 C CNN
+F 1 "VCC" H 915 873 50  0000 C CNN
+F 2 "" H 900 700 50  0001 C CNN
+F 3 "" H 900 700 50  0001 C CNN
+	1    900  700 
 	-1   0    0    1   
 $EndComp
-Text GLabel 800  700  1    50   Input ~ 0
+Text GLabel 900  700  1    50   Input ~ 0
 VCC
 Wire Wire Line
 	10150 2400 10150 2800
@@ -408,8 +408,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 3500 1500 2650
 Connection ~ 6400 2850
-Wire Wire Line
-	1400 2650 1400 3550
 Wire Wire Line
 	1400 3550 6300 3550
 Wire Wire Line
@@ -553,10 +551,6 @@ Connection ~ 3500 6400
 Wire Wire Line
 	3650 7350 3500 7350
 Connection ~ 3500 7350
-Text GLabel 3650 7350 2    50   Input ~ 0
-CLK
-Text GLabel 3000 1250 1    50   Input ~ 0
-CLK
 Text Notes 2700 5050 0    50   ~ 0
 Clock Generation
 $Comp
@@ -616,10 +610,6 @@ F 12 "Active" H 5500 7400 60  0001 L CNN "Status"
 	1    5300 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 2650 3    50   Input ~ 0
-A15
-Text GLabel 2800 6700 0    50   Input ~ 0
-A15
 Wire Wire Line
 	3400 6700 3550 6700
 Wire Wire Line
@@ -636,8 +626,6 @@ Text GLabel 5500 6700 2    50   Input ~ 0
 CS_EEPROM
 Text GLabel 10150 1650 1    50   Input ~ 0
 CS_EEPROM
-Text GLabel 4900 6400 0    50   Input ~ 0
-A15
 Text GLabel 2800 6800 0    50   Input ~ 0
 MREQ
 Wire Wire Line
@@ -713,4 +701,148 @@ Text GLabel 900  950  0    50   Input ~ 0
 GND
 Text Notes 1500 2050 0    50   ~ 0
 CPU
+Text HLabel 3000 1250 1    50   Input ~ 0
+CLK
+Text HLabel 3650 7350 2    50   Input ~ 0
+CLK
+Text HLabel 1800 2650 3    50   Input ~ 0
+A15
+Text HLabel 1900 3900 3    50   Input ~ 0
+A14
+Text HLabel 2000 3900 3    50   Input ~ 0
+A13
+Text HLabel 2100 3900 3    50   Input ~ 0
+A12
+Text HLabel 2200 3900 3    50   Input ~ 0
+A11
+Text HLabel 2300 3900 3    50   Input ~ 0
+A10
+Text HLabel 2400 3900 3    50   Input ~ 0
+A9
+Text HLabel 2500 3900 3    50   Input ~ 0
+A8
+Text HLabel 2600 3900 3    50   Input ~ 0
+A7
+Text HLabel 2700 3900 3    50   Input ~ 0
+A6
+Text HLabel 2800 3900 3    50   Input ~ 0
+A5
+Text HLabel 2900 3900 3    50   Input ~ 0
+A4
+Text HLabel 3000 3900 3    50   Input ~ 0
+A3
+Text HLabel 3100 3900 3    50   Input ~ 0
+A2
+Text HLabel 3200 3900 3    50   Input ~ 0
+A1
+Text HLabel 3300 3900 3    50   Input ~ 0
+A0
+Wire Wire Line
+	1900 3350 1900 3900
+Connection ~ 1900 3350
+Wire Wire Line
+	2000 3900 2000 3300
+Connection ~ 2000 3300
+Wire Wire Line
+	2100 3250 2100 3900
+Connection ~ 2100 3250
+Wire Wire Line
+	2200 3200 2200 3900
+Connection ~ 2200 3200
+Wire Wire Line
+	2300 3150 2300 3900
+Connection ~ 2300 3150
+Wire Wire Line
+	2400 3100 2400 3900
+Connection ~ 2400 3100
+Wire Wire Line
+	2500 3050 2500 3900
+Connection ~ 2500 3050
+Wire Wire Line
+	2600 3000 2600 3900
+Connection ~ 2600 3000
+Wire Wire Line
+	2700 2950 2700 3900
+Connection ~ 2700 2950
+Wire Wire Line
+	2800 2900 2800 3900
+Connection ~ 2800 2900
+Wire Wire Line
+	2900 2850 2900 3900
+Connection ~ 2900 2850
+Wire Wire Line
+	3000 2800 3000 3900
+Connection ~ 3000 2800
+Wire Wire Line
+	3100 2750 3100 3900
+Connection ~ 3100 2750
+Wire Wire Line
+	3200 2700 3200 3900
+Connection ~ 3200 2700
+Wire Wire Line
+	3300 2650 3300 3900
+Connection ~ 3300 2650
+Text HLabel 2800 6700 0    50   Input ~ 0
+A15
+Text HLabel 4900 6400 0    50   Input ~ 0
+A15
+Text HLabel 900  3950 3    50   Input ~ 0
+D7
+Text HLabel 1000 3950 3    50   Input ~ 0
+D6
+Text HLabel 1100 3950 3    50   Input ~ 0
+D5
+Text HLabel 1200 3950 3    50   Input ~ 0
+D4
+Text HLabel 1300 3950 3    50   Input ~ 0
+D3
+Text HLabel 1400 3950 3    50   Input ~ 0
+D2
+Text HLabel 1500 3950 3    50   Input ~ 0
+D1
+Text HLabel 1600 3950 3    50   Input ~ 0
+D0
+Wire Wire Line
+	900  3850 900  3950
+Connection ~ 900  3850
+Wire Wire Line
+	1000 3800 1000 3950
+Connection ~ 1000 3800
+Wire Wire Line
+	1100 3950 1100 3750
+Connection ~ 1100 3750
+Wire Wire Line
+	1200 3700 1200 3950
+Connection ~ 1200 3700
+Wire Wire Line
+	1300 3600 1300 3950
+Connection ~ 1300 3600
+Wire Wire Line
+	1400 2650 1400 3550
+Wire Wire Line
+	1400 3550 1400 3950
+Connection ~ 1400 3550
+Wire Wire Line
+	1500 3500 1500 3950
+Connection ~ 1500 3500
+Wire Wire Line
+	1600 3450 1600 3950
+Connection ~ 1600 3450
+Text HLabel 1500 700  1    50   Input ~ 0
+WR
+Text HLabel 1600 650  1    50   Input ~ 0
+RD
+Wire Wire Line
+	1600 750  1600 650 
+Connection ~ 1600 750 
+$Sheet
+S 400  400  10850 7450
+U 5F3C655D
+F0 "Sheet5F3C655C" 50
+F1 "debugging.sch" 50
+$EndSheet
+Text Notes 10600 7650 0    50   ~ 0
+1.00\n
+Text HLabel 700  700  0    50   Input ~ 0
+GND
 $EndSCHEMATC
