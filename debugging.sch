@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -95,4 +95,10 @@ Text HLabel 2000 800  1    50   Input ~ 0
 GND
 Text Notes 10600 7650 0    50   ~ 0
 1.00
+$Sheet
+S 450  450  10850 7350
+U 5F638FE5
+F0 "io_expansion" 50
+F1 "io_expansion.sch" 50
+$EndSheet
 $EndSCHEMATC
