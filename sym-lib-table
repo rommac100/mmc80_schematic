@@ -1,8 +1,7 @@
 (sym_lib_table
-  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/kicad-symbols-master/74xx.lib)(options "")(descr ""))
-  (lib (name 74xx_IEEE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/kicad-symbols-master/74xx_IEEE.lib)(options "")(descr ""))
-  (lib (name eeprom)(type Legacy)(uri ${KIPRJMOD}/eeprom.lib)(options "")(descr ""))
-  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/eec.lib)(options "")(descr ""))
-  (lib (name CPU)(type Legacy)(uri ${KIPRJMOD}/CPU.lib)(options "")(descr ""))
-  (lib (name dk_Logic-Gates-and-Inverters)(type Legacy)(uri ${KIPRJMOD}/dk_Logic-Gates-and-Inverters.lib)(options "")(descr ""))
+  (lib (name z80_computer-cache)(type Legacy)(uri ${KIPRJMOD}/symbols/z80_computer-cache.lib)(options "")(descr ""))
+  (lib (name eeprom)(type Legacy)(uri ${KIPRJMOD}/symbols/eeprom.lib)(options "")(descr ""))
+  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/symbols/eec.lib)(options "")(descr ""))
+  (lib (name dk_Logic-Gates-and-Inverters)(type Legacy)(uri ${KIPRJMOD}/symbols/dk_Logic-Gates-and-Inverters.lib)(options "")(descr ""))
+  (lib (name CPU)(type Legacy)(uri ${KIPRJMOD}/symbols/CPU.lib)(options "")(descr ""))
 )
